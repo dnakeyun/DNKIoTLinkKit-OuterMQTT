@@ -6,7 +6,7 @@
 //
 
 #import "ViewController.h"
-#import <DNKIoTLinkKit-OuterMQTT/DNKIoTLinkKit.h> 
+#import <DNKIoTLinkKit/DNKIoTLinkKit.h> 
 
 @interface ViewController ()
 

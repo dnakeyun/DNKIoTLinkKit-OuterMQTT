@@ -1,0 +1,46 @@
+{
+  "name": "DNKIoTLinkKit",
+  "version": "1.0.5",
+  "summary": "不支持阿里IoT通讯，支持自定义MQTT通讯",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cqcool": "cqcool@icloud"
+  },
+  "homepage": "https://github.com/dnakeyun/dnake-specs/",
+  "source": {
+    "http": "https://github.com/dnakeyun/DNKIoTLinkKit-OuterMQTT.git"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "ios": {
+    "vendored_frameworks": "DNKIoTLinkKit.framework"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "frameworks": "SystemConfiguration",
+  "dependencies": {
+    "CocoaAsyncSocket": [
+
+    ],
+    "MQTTClient": [
+
+    ],
+    "RealReachability": [
+
+    ],
+    "IotLinkKit": [
+
+    ],
+    "MJExtension": [
+
+    ]
+  }
+}

@@ -4,10 +4,10 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>DNKIoTLinkKit-OuterMQTT.xcscheme_^#shared#^_</key>
+		<key>DNKIoTLinkKit.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>0</integer>
 		</dict>
 		<key>DNKIoTLinkKitDemo.xcscheme_^#shared#^_</key>
 		<dict>

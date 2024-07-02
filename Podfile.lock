@@ -1,0 +1,60 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - DNKIoTLinkKit (1.0.5):
+    - CocoaAsyncSocket
+    - IotLinkKit
+    - MJExtension
+    - MQTTClient
+    - RealReachability
+  - IMSLog (1.0.8)
+  - IotLinkKit (1.2.2):
+    - IMSLog
+  - MJExtension (3.4.2)
+  - MQTTClient (0.15.3):
+    - MQTTClient/Core (= 0.15.3)
+  - MQTTClient/Core (0.15.3):
+    - MQTTClient/Manager
+    - MQTTClient/Min
+  - MQTTClient/Manager (0.15.3):
+    - MQTTClient/Min
+  - MQTTClient/Min (0.15.3)
+  - RealReachability (1.4.1):
+    - RealReachability/Connection (= 1.4.1)
+    - RealReachability/Ping (= 1.4.1)
+  - RealReachability/Connection (1.4.1)
+  - RealReachability/Ping (1.4.1)
+
+DEPENDENCIES:
+  - DNKIoTLinkKit (from `https://github.com/dnakeyun/DNKIoTLinkKit-OuterMQTT.git`)
+
+SPEC REPOS:
+  https://github.com/aliyun/aliyun-specs.git:
+    - IMSLog
+    - IotLinkKit
+  https://github.com/CocoaPods/Specs.git:
+    - CocoaAsyncSocket
+    - MJExtension
+    - MQTTClient
+    - RealReachability
+
+EXTERNAL SOURCES:
+  DNKIoTLinkKit:
+    :git: https://github.com/dnakeyun/DNKIoTLinkKit-OuterMQTT.git
+
+CHECKOUT OPTIONS:
+  DNKIoTLinkKit:
+    :commit: 3f0e949b85cb3595e0d108cc5eb3b7b24d77d3d5
+    :git: https://github.com/dnakeyun/DNKIoTLinkKit-OuterMQTT.git
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  DNKIoTLinkKit: 7a2432a94772ded659aa1c803889da9947a420ab
+  IMSLog: d17ae9fa27c5a31ef5a76ed4e233fd4c89404508
+  IotLinkKit: 0ee37f86a8af9e0437e3037800fdd98d9100a9eb
+  MJExtension: e97d164cb411aa9795cf576093a1fa208b4a8dd8
+  MQTTClient: 0dfa04e789479c2e461786464969895c1fcb0875
+  RealReachability: 828e74e3a1e89ba8f54395344637689cf4065c36
+
+PODFILE CHECKSUM: dadf0496ae024d8d7764bb1d385ced368a7157bc
+
+COCOAPODS: 1.15.2

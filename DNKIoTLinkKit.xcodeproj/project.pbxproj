@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E8B174C2C33F91B00377621 /* DNKIoTLinkKit-OuterMQTT.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1E8B174B2C33F91B00377621 /* DNKIoTLinkKit-OuterMQTT.podspec */; };
+		1437CD2B704332E91230F0D1 /* Pods_DNKIoTLinkKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E38472BB2A75A7A9140233 /* Pods_DNKIoTLinkKit.framework */; };
+		1E8B174E2C340B4B00377621 /* DNKIoTLinkKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1E8B174D2C340B4B00377621 /* DNKIoTLinkKit.podspec */; };
 		1EF6C5B22C2D68E900EF2C07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6C5B12C2D68E900EF2C07 /* AppDelegate.m */; };
 		1EF6C5B52C2D68E900EF2C07 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6C5B42C2D68E900EF2C07 /* SceneDelegate.m */; };
 		1EF6C5B82C2D68E900EF2C07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6C5B72C2D68E900EF2C07 /* ViewController.m */; };
@@ -15,13 +16,12 @@
 		1EF6C5BD2C2D68EB00EF2C07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF6C5BC2C2D68EB00EF2C07 /* Assets.xcassets */; };
 		1EF6C5C02C2D68EB00EF2C07 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1EF6C5BF2C2D68EB00EF2C07 /* Base */; };
 		1EF6C5C32C2D68EB00EF2C07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6C5C22C2D68EB00EF2C07 /* main.m */; };
-		D44470D3F21E86C9CB666143 /* Pods_DNKIoTLinkKit_OuterMQTT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECACCAE2AC6CB40B159FF1 /* Pods_DNKIoTLinkKit_OuterMQTT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04C1580B97F372AF539C5493 /* Pods-DNKIoTLinkKit-OuterMQTT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNKIoTLinkKit-OuterMQTT.debug.xcconfig"; path = "Target Support Files/Pods-DNKIoTLinkKit-OuterMQTT/Pods-DNKIoTLinkKit-OuterMQTT.debug.xcconfig"; sourceTree = "<group>"; };
-		1E8B174B2C33F91B00377621 /* DNKIoTLinkKit-OuterMQTT.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "DNKIoTLinkKit-OuterMQTT.podspec"; sourceTree = SOURCE_ROOT; };
-		1EF6C5AD2C2D68E900EF2C07 /* DNKIoTLinkKit-OuterMQTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DNKIoTLinkKit-OuterMQTT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E8B174D2C340B4B00377621 /* DNKIoTLinkKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DNKIoTLinkKit.podspec; sourceTree = SOURCE_ROOT; };
+		1EF6C5AD2C2D68E900EF2C07 /* DNKIoTLinkKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNKIoTLinkKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF6C5B02C2D68E900EF2C07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1EF6C5B12C2D68E900EF2C07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1EF6C5B32C2D68E900EF2C07 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -35,9 +35,11 @@
 		1EF6C5C22C2D68EB00EF2C07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1EF6C7572C32A0CF00EF2C07 /* DNKIoTLinkKitDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DNKIoTLinkKitDemo.entitlements; sourceTree = "<group>"; };
 		4D061DCA30D7A8D7EFEC2D3C /* Pods-DNKIoTLinkKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNKIoTLinkKitDemo.release.xcconfig"; path = "Target Support Files/Pods-DNKIoTLinkKitDemo/Pods-DNKIoTLinkKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6F6C0FF9086989C46E529B84 /* Pods-DNKIoTLinkKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNKIoTLinkKit.debug.xcconfig"; path = "Target Support Files/Pods-DNKIoTLinkKit/Pods-DNKIoTLinkKit.debug.xcconfig"; sourceTree = "<group>"; };
 		C0DA463809C5D60D4E33D0E7 /* Pods-DNKIoTLinkKit-OuterMQTT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNKIoTLinkKit-OuterMQTT.release.xcconfig"; path = "Target Support Files/Pods-DNKIoTLinkKit-OuterMQTT/Pods-DNKIoTLinkKit-OuterMQTT.release.xcconfig"; sourceTree = "<group>"; };
 		E5C2ED10BD6416C3687D189A /* Pods-DNKIoTLinkKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNKIoTLinkKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-DNKIoTLinkKitDemo/Pods-DNKIoTLinkKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		ECECACCAE2AC6CB40B159FF1 /* Pods_DNKIoTLinkKit_OuterMQTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DNKIoTLinkKit_OuterMQTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E38472BB2A75A7A9140233 /* Pods_DNKIoTLinkKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DNKIoTLinkKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA4145256EA41E1731FC6AA /* Pods-DNKIoTLinkKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNKIoTLinkKit.release.xcconfig"; path = "Target Support Files/Pods-DNKIoTLinkKit/Pods-DNKIoTLinkKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D44470D3F21E86C9CB666143 /* Pods_DNKIoTLinkKit_OuterMQTT.framework in Frameworks */,
+				1437CD2B704332E91230F0D1 /* Pods_DNKIoTLinkKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +67,7 @@
 		1EF6C5AE2C2D68E900EF2C07 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1EF6C5AD2C2D68E900EF2C07 /* DNKIoTLinkKit-OuterMQTT.app */,
+				1EF6C5AD2C2D68E900EF2C07 /* DNKIoTLinkKit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,7 +75,7 @@
 		1EF6C5AF2C2D68E900EF2C07 /* DNKIoTLinkKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				1E8B174B2C33F91B00377621 /* DNKIoTLinkKit-OuterMQTT.podspec */,
+				1E8B174D2C340B4B00377621 /* DNKIoTLinkKit.podspec */,
 				1EF6C7572C32A0CF00EF2C07 /* DNKIoTLinkKitDemo.entitlements */,
 				1EF6C5B02C2D68E900EF2C07 /* AppDelegate.h */,
 				1EF6C5B12C2D68E900EF2C07 /* AppDelegate.m */,
@@ -93,7 +95,7 @@
 		4B48355907D210AAAA35DA35 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ECECACCAE2AC6CB40B159FF1 /* Pods_DNKIoTLinkKit_OuterMQTT.framework */,
+				E9E38472BB2A75A7A9140233 /* Pods_DNKIoTLinkKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -105,6 +107,8 @@
 				4D061DCA30D7A8D7EFEC2D3C /* Pods-DNKIoTLinkKitDemo.release.xcconfig */,
 				04C1580B97F372AF539C5493 /* Pods-DNKIoTLinkKit-OuterMQTT.debug.xcconfig */,
 				C0DA463809C5D60D4E33D0E7 /* Pods-DNKIoTLinkKit-OuterMQTT.release.xcconfig */,
+				6F6C0FF9086989C46E529B84 /* Pods-DNKIoTLinkKit.debug.xcconfig */,
+				FDA4145256EA41E1731FC6AA /* Pods-DNKIoTLinkKit.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -112,9 +116,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1EF6C5AC2C2D68E900EF2C07 /* DNKIoTLinkKit-OuterMQTT */ = {
+		1EF6C5AC2C2D68E900EF2C07 /* DNKIoTLinkKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1EF6C5DC2C2D68EB00EF2C07 /* Build configuration list for PBXNativeTarget "DNKIoTLinkKit-OuterMQTT" */;
+			buildConfigurationList = 1EF6C5DC2C2D68EB00EF2C07 /* Build configuration list for PBXNativeTarget "DNKIoTLinkKit" */;
 			buildPhases = (
 				C574D33C9AD356CE46E13173 /* [CP] Check Pods Manifest.lock */,
 				1EF6C5A92C2D68E900EF2C07 /* Sources */,
@@ -127,9 +131,9 @@
 			);
 			dependencies = (
 			);
-			name = "DNKIoTLinkKit-OuterMQTT";
+			name = DNKIoTLinkKit;
 			productName = DNKIoTLinkKitDemo;
-			productReference = 1EF6C5AD2C2D68E900EF2C07 /* DNKIoTLinkKit-OuterMQTT.app */;
+			productReference = 1EF6C5AD2C2D68E900EF2C07 /* DNKIoTLinkKit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -146,7 +150,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1EF6C5A82C2D68E900EF2C07 /* Build configuration list for PBXProject "DNKIoTLinkKit-OuterMQTT" */;
+			buildConfigurationList = 1EF6C5A82C2D68E900EF2C07 /* Build configuration list for PBXProject "DNKIoTLinkKit" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -159,7 +163,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1EF6C5AC2C2D68E900EF2C07 /* DNKIoTLinkKit-OuterMQTT */,
+				1EF6C5AC2C2D68E900EF2C07 /* DNKIoTLinkKit */,
 			);
 		};
 /* End PBXProject section */
@@ -169,7 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E8B174C2C33F91B00377621 /* DNKIoTLinkKit-OuterMQTT.podspec in Resources */,
+				1E8B174E2C340B4B00377621 /* DNKIoTLinkKit.podspec in Resources */,
 				1EF6C5BD2C2D68EB00EF2C07 /* Assets.xcassets in Resources */,
 				1EF6C5C02C2D68EB00EF2C07 /* Base in Resources */,
 				1EF6C5BB2C2D68E900EF2C07 /* Base in Resources */,
@@ -185,15 +189,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DNKIoTLinkKit-OuterMQTT/Pods-DNKIoTLinkKit-OuterMQTT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DNKIoTLinkKit/Pods-DNKIoTLinkKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DNKIoTLinkKit-OuterMQTT/Pods-DNKIoTLinkKit-OuterMQTT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DNKIoTLinkKit/Pods-DNKIoTLinkKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DNKIoTLinkKit-OuterMQTT/Pods-DNKIoTLinkKit-OuterMQTT-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DNKIoTLinkKit/Pods-DNKIoTLinkKit-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9231A5C9EF122B4578FE86FD /* [CP] Copy Pods Resources */ = {
@@ -202,15 +206,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DNKIoTLinkKit-OuterMQTT/Pods-DNKIoTLinkKit-OuterMQTT-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DNKIoTLinkKit/Pods-DNKIoTLinkKit-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DNKIoTLinkKit-OuterMQTT/Pods-DNKIoTLinkKit-OuterMQTT-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DNKIoTLinkKit/Pods-DNKIoTLinkKit-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DNKIoTLinkKit-OuterMQTT/Pods-DNKIoTLinkKit-OuterMQTT-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DNKIoTLinkKit/Pods-DNKIoTLinkKit-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C574D33C9AD356CE46E13173 /* [CP] Check Pods Manifest.lock */ = {
@@ -228,7 +232,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DNKIoTLinkKit-OuterMQTT-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DNKIoTLinkKit-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -389,7 +393,7 @@
 		};
 		1EF6C5DD2C2D68EB00EF2C07 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04C1580B97F372AF539C5493 /* Pods-DNKIoTLinkKit-OuterMQTT.debug.xcconfig */;
+			baseConfigurationReference = 6F6C0FF9086989C46E529B84 /* Pods-DNKIoTLinkKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -421,7 +425,7 @@
 		};
 		1EF6C5DE2C2D68EB00EF2C07 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0DA463809C5D60D4E33D0E7 /* Pods-DNKIoTLinkKit-OuterMQTT.release.xcconfig */;
+			baseConfigurationReference = FDA4145256EA41E1731FC6AA /* Pods-DNKIoTLinkKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -454,7 +458,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1EF6C5A82C2D68E900EF2C07 /* Build configuration list for PBXProject "DNKIoTLinkKit-OuterMQTT" */ = {
+		1EF6C5A82C2D68E900EF2C07 /* Build configuration list for PBXProject "DNKIoTLinkKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1EF6C5DA2C2D68EB00EF2C07 /* Debug */,
@@ -463,7 +467,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1EF6C5DC2C2D68EB00EF2C07 /* Build configuration list for PBXNativeTarget "DNKIoTLinkKit-OuterMQTT" */ = {
+		1EF6C5DC2C2D68EB00EF2C07 /* Build configuration list for PBXNativeTarget "DNKIoTLinkKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1EF6C5DD2C2D68EB00EF2C07 /* Debug */,
