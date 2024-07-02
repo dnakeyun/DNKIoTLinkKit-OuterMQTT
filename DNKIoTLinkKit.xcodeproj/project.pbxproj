@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E8B174C2C33F91B00377621 /* DNKIoTLinkKit-OuterMQTT.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1E8B174B2C33F91B00377621 /* DNKIoTLinkKit-OuterMQTT.podspec */; };
+		1EF6C5B22C2D68E900EF2C07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6C5B12C2D68E900EF2C07 /* AppDelegate.m */; };
+		1EF6C5B52C2D68E900EF2C07 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6C5B42C2D68E900EF2C07 /* SceneDelegate.m */; };
+		1EF6C5B82C2D68E900EF2C07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6C5B72C2D68E900EF2C07 /* ViewController.m */; };
+		1EF6C5BB2C2D68E900EF2C07 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1EF6C5BA2C2D68E900EF2C07 /* Base */; };
+		1EF6C5BD2C2D68EB00EF2C07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF6C5BC2C2D68EB00EF2C07 /* Assets.xcassets */; };
+		1EF6C5C02C2D68EB00EF2C07 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1EF6C5BF2C2D68EB00EF2C07 /* Base */; };
+		1EF6C5C32C2D68EB00EF2C07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6C5C22C2D68EB00EF2C07 /* main.m */; };
+		D44470D3F21E86C9CB666143 /* Pods_DNKIoTLinkKit_OuterMQTT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECACCAE2AC6CB40B159FF1 /* Pods_DNKIoTLinkKit_OuterMQTT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04C1580B97F372AF539C5493 /* Pods-DNKIoTLinkKit-OuterMQTT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNKIoTLinkKit-OuterMQTT.debug.xcconfig"; path = "Target Support Files/Pods-DNKIoTLinkKit-OuterMQTT/Pods-DNKIoTLinkKit-OuterMQTT.debug.xcconfig"; sourceTree = "<group>"; };
+		1E8B174B2C33F91B00377621 /* DNKIoTLinkKit-OuterMQTT.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "DNKIoTLinkKit-OuterMQTT.podspec"; sourceTree = SOURCE_ROOT; };
+		1EF6C5AD2C2D68E900EF2C07 /* DNKIoTLinkKit-OuterMQTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DNKIoTLinkKit-OuterMQTT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF6C5B02C2D68E900EF2C07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1EF6C5B12C2D68E900EF2C07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1EF6C5B32C2D68E900EF2C07 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		1EF6C5B42C2D68E900EF2C07 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		1EF6C5B62C2D68E900EF2C07 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1EF6C5B72C2D68E900EF2C07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1EF6C5BA2C2D68E900EF2C07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EF6C5BC2C2D68EB00EF2C07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EF6C5BF2C2D68EB00EF2C07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EF6C5C12C2D68EB00EF2C07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EF6C5C22C2D68EB00EF2C07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EF6C7572C32A0CF00EF2C07 /* DNKIoTLinkKitDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DNKIoTLinkKitDemo.entitlements; sourceTree = "<group>"; };
+		4D061DCA30D7A8D7EFEC2D3C /* Pods-DNKIoTLinkKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNKIoTLinkKitDemo.release.xcconfig"; path = "Target Support Files/Pods-DNKIoTLinkKitDemo/Pods-DNKIoTLinkKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C0DA463809C5D60D4E33D0E7 /* Pods-DNKIoTLinkKit-OuterMQTT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNKIoTLinkKit-OuterMQTT.release.xcconfig"; path = "Target Support Files/Pods-DNKIoTLinkKit-OuterMQTT/Pods-DNKIoTLinkKit-OuterMQTT.release.xcconfig"; sourceTree = "<group>"; };
+		E5C2ED10BD6416C3687D189A /* Pods-DNKIoTLinkKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNKIoTLinkKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-DNKIoTLinkKitDemo/Pods-DNKIoTLinkKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		ECECACCAE2AC6CB40B159FF1 /* Pods_DNKIoTLinkKit_OuterMQTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DNKIoTLinkKit_OuterMQTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EF6C5AA2C2D68E900EF2C07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44470D3F21E86C9CB666143 /* Pods_DNKIoTLinkKit_OuterMQTT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EF6C5A42C2D68E900EF2C07 = {
+			isa = PBXGroup;
+			children = (
+				1EF6C5AF2C2D68E900EF2C07 /* DNKIoTLinkKitDemo */,
+				1EF6C5AE2C2D68E900EF2C07 /* Products */,
+				5C8C11B6475D0DCEB176CF4D /* Pods */,
+				4B48355907D210AAAA35DA35 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1EF6C5AE2C2D68E900EF2C07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EF6C5AD2C2D68E900EF2C07 /* DNKIoTLinkKit-OuterMQTT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EF6C5AF2C2D68E900EF2C07 /* DNKIoTLinkKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1E8B174B2C33F91B00377621 /* DNKIoTLinkKit-OuterMQTT.podspec */,
+				1EF6C7572C32A0CF00EF2C07 /* DNKIoTLinkKitDemo.entitlements */,
+				1EF6C5B02C2D68E900EF2C07 /* AppDelegate.h */,
+				1EF6C5B12C2D68E900EF2C07 /* AppDelegate.m */,
+				1EF6C5B32C2D68E900EF2C07 /* SceneDelegate.h */,
+				1EF6C5B42C2D68E900EF2C07 /* SceneDelegate.m */,
+				1EF6C5B62C2D68E900EF2C07 /* ViewController.h */,
+				1EF6C5B72C2D68E900EF2C07 /* ViewController.m */,
+				1EF6C5B92C2D68E900EF2C07 /* Main.storyboard */,
+				1EF6C5BC2C2D68EB00EF2C07 /* Assets.xcassets */,
+				1EF6C5BE2C2D68EB00EF2C07 /* LaunchScreen.storyboard */,
+				1EF6C5C12C2D68EB00EF2C07 /* Info.plist */,
+				1EF6C5C22C2D68EB00EF2C07 /* main.m */,
+			);
+			path = DNKIoTLinkKitDemo;
+			sourceTree = "<group>";
+		};
+		4B48355907D210AAAA35DA35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECECACCAE2AC6CB40B159FF1 /* Pods_DNKIoTLinkKit_OuterMQTT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C8C11B6475D0DCEB176CF4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5C2ED10BD6416C3687D189A /* Pods-DNKIoTLinkKitDemo.debug.xcconfig */,
+				4D061DCA30D7A8D7EFEC2D3C /* Pods-DNKIoTLinkKitDemo.release.xcconfig */,
+				04C1580B97F372AF539C5493 /* Pods-DNKIoTLinkKit-OuterMQTT.debug.xcconfig */,
+				C0DA463809C5D60D4E33D0E7 /* Pods-DNKIoTLinkKit-OuterMQTT.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EF6C5AC2C2D68E900EF2C07 /* DNKIoTLinkKit-OuterMQTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EF6C5DC2C2D68EB00EF2C07 /* Build configuration list for PBXNativeTarget "DNKIoTLinkKit-OuterMQTT" */;
+			buildPhases = (
+				C574D33C9AD356CE46E13173 /* [CP] Check Pods Manifest.lock */,
+				1EF6C5A92C2D68E900EF2C07 /* Sources */,
+				1EF6C5AA2C2D68E900EF2C07 /* Frameworks */,
+				1EF6C5AB2C2D68E900EF2C07 /* Resources */,
+				0DFEE20209F4E5A18D3A7AC7 /* [CP] Embed Pods Frameworks */,
+				9231A5C9EF122B4578FE86FD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DNKIoTLinkKit-OuterMQTT";
+			productName = DNKIoTLinkKitDemo;
+			productReference = 1EF6C5AD2C2D68E900EF2C07 /* DNKIoTLinkKit-OuterMQTT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EF6C5A52C2D68E900EF2C07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					1EF6C5AC2C2D68E900EF2C07 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 1EF6C5A82C2D68E900EF2C07 /* Build configuration list for PBXProject "DNKIoTLinkKit-OuterMQTT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EF6C5A42C2D68E900EF2C07;
+			productRefGroup = 1EF6C5AE2C2D68E900EF2C07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EF6C5AC2C2D68E900EF2C07 /* DNKIoTLinkKit-OuterMQTT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EF6C5AB2C2D68E900EF2C07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8B174C2C33F91B00377621 /* DNKIoTLinkKit-OuterMQTT.podspec in Resources */,
+				1EF6C5BD2C2D68EB00EF2C07 /* Assets.xcassets in Resources */,
+				1EF6C5C02C2D68EB00EF2C07 /* Base in Resources */,
+				1EF6C5BB2C2D68E900EF2C07 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DFEE20209F4E5A18D3A7AC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DNKIoTLinkKit-OuterMQTT/Pods-DNKIoTLinkKit-OuterMQTT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DNKIoTLinkKit-OuterMQTT/Pods-DNKIoTLinkKit-OuterMQTT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DNKIoTLinkKit-OuterMQTT/Pods-DNKIoTLinkKit-OuterMQTT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9231A5C9EF122B4578FE86FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DNKIoTLinkKit-OuterMQTT/Pods-DNKIoTLinkKit-OuterMQTT-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DNKIoTLinkKit-OuterMQTT/Pods-DNKIoTLinkKit-OuterMQTT-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DNKIoTLinkKit-OuterMQTT/Pods-DNKIoTLinkKit-OuterMQTT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C574D33C9AD356CE46E13173 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DNKIoTLinkKit-OuterMQTT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EF6C5A92C2D68E900EF2C07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF6C5B82C2D68E900EF2C07 /* ViewController.m in Sources */,
+				1EF6C5B22C2D68E900EF2C07 /* AppDelegate.m in Sources */,
+				1EF6C5C32C2D68EB00EF2C07 /* main.m in Sources */,
+				1EF6C5B52C2D68E900EF2C07 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1EF6C5B92C2D68E900EF2C07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EF6C5BA2C2D68E900EF2C07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EF6C5BE2C2D68EB00EF2C07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EF6C5BF2C2D68EB00EF2C07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EF6C5DA2C2D68EB00EF2C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1EF6C5DB2C2D68EB00EF2C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EF6C5DD2C2D68EB00EF2C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04C1580B97F372AF539C5493 /* Pods-DNKIoTLinkKit-OuterMQTT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DNKIoTLinkKitDemo/DNKIoTLinkKitDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8C962LK342;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DNKIoTLinkKitDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dnake.engineering;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EF6C5DE2C2D68EB00EF2C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0DA463809C5D60D4E33D0E7 /* Pods-DNKIoTLinkKit-OuterMQTT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DNKIoTLinkKitDemo/DNKIoTLinkKitDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8C962LK342;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DNKIoTLinkKitDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dnake.engineering;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EF6C5A82C2D68E900EF2C07 /* Build configuration list for PBXProject "DNKIoTLinkKit-OuterMQTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EF6C5DA2C2D68EB00EF2C07 /* Debug */,
+				1EF6C5DB2C2D68EB00EF2C07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EF6C5DC2C2D68EB00EF2C07 /* Build configuration list for PBXNativeTarget "DNKIoTLinkKit-OuterMQTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EF6C5DD2C2D68EB00EF2C07 /* Debug */,
+				1EF6C5DE2C2D68EB00EF2C07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EF6C5A52C2D68E900EF2C07 /* Project object */;
+}

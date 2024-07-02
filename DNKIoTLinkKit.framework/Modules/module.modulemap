@@ -1,0 +1,6 @@
+framework module DNKIoTLinkKit {
+  umbrella header "DNKIoTLinkKit.h"
+  export *
+
+  module * { export * }
+}
